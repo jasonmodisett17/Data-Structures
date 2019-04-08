@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf37191-fecc-4555-adb0-c20711f6423c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +13,32 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Data_Structures$Unittests_in_test_doubly_linked_list_py.coverage" NAME="Unittests in test_doubly_linked_list.py Coverage Results" MODIFIED="1554691653036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubly_linked_list" />
     <SUITE FILE_PATH="coverage/Data_Structures$doubly_linked_list.coverage" NAME="doubly_linked_list Coverage Results" MODIFIED="1554691971097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubly_linked_list" />
+    <SUITE FILE_PATH="coverage/Data_Structures$Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_get_max.coverage" NAME="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max Coverage Results" MODIFIED="1554693111667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search_tree" />
     <SUITE FILE_PATH="coverage/Data_Structures$Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_node_delete.coverage" NAME="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete Coverage Results" MODIFIED="1554691978141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubly_linked_list" />
     <SUITE FILE_PATH="coverage/Data_Structures$Unittests_in_test_queue_py.coverage" NAME="Unittests in test_queue.py Coverage Results" MODIFIED="1554223198677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
+    <SUITE FILE_PATH="coverage/Data_Structures$binary_search_tree.coverage" NAME="binary_search_tree Coverage Results" MODIFIED="1554693108390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search_tree" />
     <SUITE FILE_PATH="coverage/Data_Structures$queue.coverage" NAME="queue Coverage Results" MODIFIED="1554223194498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
     <SUITE FILE_PATH="coverage/Data_Structures$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1554222855873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
+        <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,6 +54,7 @@
         <option value="$PROJECT_DIR$/queue/linked_list.py" />
         <option value="$PROJECT_DIR$/queue/queue.py" />
         <option value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
+        <option value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
       </list>
     </option>
   </component>
@@ -66,6 +80,11 @@
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="binary_search_tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -90,7 +109,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete">
+  <component name="RunManager" selected="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max">
+    <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="doubly_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,26 +154,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queue/queue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_binary_search_tree.BinarySearchTreeTests.test_get_max&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -165,28 +199,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_queue.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queue" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/queue/test_queue.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" />
+        <item itemvalue="Python.binary_search_tree" />
         <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete" />
         <item itemvalue="Python.doubly_linked_list" />
         <item itemvalue="Python tests.Unittests in test_doubly_linked_list.py" />
-        <item itemvalue="Python tests.Unittests in test_queue.py" />
-        <item itemvalue="Python.queue" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554222458270</updated>
       <workItem from="1554222459741" duration="1421000" />
-      <workItem from="1554691560769" duration="863000" />
+      <workItem from="1554691560769" duration="1338000" />
     </task>
     <servers />
   </component>
@@ -218,15 +237,24 @@
     <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_node_delete - 2019.04.07 at 21h 52m 58s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_get_max - 2019.04.07 at 22h 07m 40s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_get_max - 2019.04.07 at 22h 09m 09s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_get_max - 2019.04.07 at 22h 11m 51s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2284000" />
+    <option name="totallyTimeSpent" value="2759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="28" width="1680" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23443224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -288,8 +316,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
+        <state relative-caret-position="1815">
           <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avl_tree/avl_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
