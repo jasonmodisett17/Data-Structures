@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf37191-fecc-4555-adb0-c20711f6423c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/generic_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/heap/generic_heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/max_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/heap/max_heap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +16,53 @@
     <SUITE FILE_PATH="coverage/Data_Structures$doubly_linked_list.coverage" NAME="doubly_linked_list Coverage Results" MODIFIED="1554691971097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubly_linked_list" />
     <SUITE FILE_PATH="coverage/Data_Structures$Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_get_max.coverage" NAME="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max Coverage Results" MODIFIED="1554693111667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search_tree" />
     <SUITE FILE_PATH="coverage/Data_Structures$Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_node_delete.coverage" NAME="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete Coverage Results" MODIFIED="1554691978141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubly_linked_list" />
+    <SUITE FILE_PATH="coverage/Data_Structures$Unittests_for_test_generic_heap_HeapTests_test_default_heap_insert_works.coverage" NAME="Unittests for test_generic_heap.HeapTests.test_default_heap_insert_works Coverage Results" MODIFIED="1554693522024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/Data_Structures$Unittests_in_test_queue_py.coverage" NAME="Unittests in test_queue.py Coverage Results" MODIFIED="1554223198677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
+    <SUITE FILE_PATH="coverage/Data_Structures$Unittests_for_test_max_heap_HeapTests_test_get_max_works.coverage" NAME="Unittests for test_max_heap.HeapTests.test_get_max_works Coverage Results" MODIFIED="1554693463843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
+    <SUITE FILE_PATH="coverage/Data_Structures$generic_heap.coverage" NAME="generic_heap Coverage Results" MODIFIED="1554693309706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
+    <SUITE FILE_PATH="coverage/Data_Structures$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1554222855873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
+    <SUITE FILE_PATH="coverage/Data_Structures$Unittests_in_test_generic_heap_py.coverage" NAME="Unittests in test_generic_heap.py Coverage Results" MODIFIED="1554693381435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
+    <SUITE FILE_PATH="coverage/Data_Structures$max_heap.coverage" NAME="max_heap Coverage Results" MODIFIED="1554693377612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/Data_Structures$binary_search_tree.coverage" NAME="binary_search_tree Coverage Results" MODIFIED="1554693108390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search_tree" />
     <SUITE FILE_PATH="coverage/Data_Structures$queue.coverage" NAME="queue Coverage Results" MODIFIED="1554223194498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
-    <SUITE FILE_PATH="coverage/Data_Structures$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1554222855873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heap/generic_heap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
+        <entry file="file://$PROJECT_DIR$/heap/max_heap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heap/test_generic_heap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heap/test_max_heap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -55,6 +82,8 @@
         <option value="$PROJECT_DIR$/queue/queue.py" />
         <option value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
         <option value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
+        <option value="$PROJECT_DIR$/heap/max_heap.py" />
+        <option value="$PROJECT_DIR$/heap/generic_heap.py" />
       </list>
     </option>
   </component>
@@ -83,7 +112,7 @@
             <path>
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_search_tree" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,8 +138,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max">
-    <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_generic_heap.HeapTests.test_default_heap_insert_works">
+    <configuration name="generic_heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,12 +147,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/generic_heap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="doubly_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="max_heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubly_linked_list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/max_heap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,58 +183,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_generic_heap.HeapTests.test_default_heap_insert_works" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_binary_search_tree.BinarySearchTreeTests.test_get_max&quot;" />
+      <option name="_new_target" value="&quot;test_generic_heap.HeapTests.test_default_heap_insert_works&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_max_heap.HeapTests.test_get_max_works" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubly_linked_list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_doubly_linked_list.DoublyLinkedListTests.test_node_delete&quot;" />
+      <option name="_new_target" value="&quot;test_max_heap.HeapTests.test_get_max_works&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_doubly_linked_list.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_generic_heap.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubly_linked_list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/doubly_linked_list/test_doubly_linked_list.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/heap/test_generic_heap.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" />
-        <item itemvalue="Python.binary_search_tree" />
-        <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete" />
-        <item itemvalue="Python.doubly_linked_list" />
-        <item itemvalue="Python tests.Unittests in test_doubly_linked_list.py" />
+        <item itemvalue="Python tests.Unittests for test_generic_heap.HeapTests.test_default_heap_insert_works" />
+        <item itemvalue="Python tests.Unittests for test_max_heap.HeapTests.test_get_max_works" />
+        <item itemvalue="Python tests.Unittests in test_generic_heap.py" />
+        <item itemvalue="Python.max_heap" />
+        <item itemvalue="Python.generic_heap" />
       </list>
     </recent_temporary>
   </component>
@@ -220,17 +249,11 @@
       <option name="presentableId" value="Default" />
       <updated>1554222458270</updated>
       <workItem from="1554222459741" duration="1421000" />
-      <workItem from="1554691560769" duration="1338000" />
+      <workItem from="1554691560769" duration="1740000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_queue_py - 2019.04.02 at 11h 39m 59s.xml">
-      <configuration name="Unittests in test_queue.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_doubly_linked_list_py - 2019.04.07 at 21h 47m 33s.xml">
-      <configuration name="Unittests in test_doubly_linked_list.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_node_delete - 2019.04.07 at 21h 51m 13s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_node_delete" configurationId="tests" />
     </history-entry>
@@ -246,9 +269,24 @@
     <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_get_max - 2019.04.07 at 22h 11m 51s.xml">
       <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_get_max" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_generic_heap_py - 2019.04.07 at 22h 16m 21s.xml">
+      <configuration name="Unittests in test_generic_heap.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_max_heap_HeapTests_test_get_max_works - 2019.04.07 at 22h 17m 18s.xml">
+      <configuration name="Unittests for test_max_heap.HeapTests.test_get_max_works" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_max_heap_HeapTests_test_get_max_works - 2019.04.07 at 22h 17m 44s.xml">
+      <configuration name="Unittests for test_max_heap.HeapTests.test_get_max_works" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_generic_heap_HeapTests_test_default_heap_insert_works - 2019.04.07 at 22h 18m 05s.xml">
+      <configuration name="Unittests for test_generic_heap.HeapTests.test_default_heap_insert_works" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_generic_heap_HeapTests_test_default_heap_insert_works - 2019.04.07 at 22h 18m 42s.xml">
+      <configuration name="Unittests for test_generic_heap.HeapTests.test_default_heap_insert_works" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2759000" />
+    <option name="totallyTimeSpent" value="3161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="28" width="1680" height="834" extended-state="0" />
@@ -269,7 +307,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,8 +378,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/max_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/generic_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/test_max_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/test_generic_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
