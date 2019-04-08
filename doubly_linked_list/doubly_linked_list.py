@@ -40,29 +40,83 @@ class DoublyLinkedList:
     self.tail = node
     self.length = 1 if node is not None else 0
 
+    def __init__(self, node=None):
+      self.head = node
+      self.tail = node
+      self.length = 1 if node is not None else 0
+
   def __len__(self):
     return self.length
 
   def add_to_head(self, value):
-    pass
+    newNode = ListNode(value)
+
+    if self.head is None:
+      self.head = newNode
+      self.tail = newNode
+    else:
+      newNode.next = self.head
+      self.head.prev = newNode
+      self.head = newNode
 
   def remove_from_head(self):
-    pass
+    if not self.head:
+      return None
+    if self.head == self.tail:
+      self.length = 0
+      self.head = None
+      self.tail = None
+    else:
+      self.head = self.head.next
+      self.head.prev = None
 
   def add_to_tail(self, value):
-    pass
+    newNode = ListNode(value)
+    if self.head is None:
+      # adding first node
+      self.head = newNode
+      self.tail = newNode
+    else:
+      self.tail.next = newNode
+      newNode.prev = self.tail
+      self.tail = newNode
 
   def remove_from_tail(self):
-    pass
+    if self.tail is not None:
+      if self.tail.prev is not None:
+        self.tail.prev.next = None
+        self.tail = self.tail.prev
+      else:
+        self.tail = None
+        self.head = None
+        self.length = 0
 
   def move_to_front(self, node):
-    pass
+    node.prev.next = node.next
+    node.next.prev = node.prev
+    node.next = self.head
+    node.prev = None
+    self.head = node
 
   def move_to_end(self, node):
-    pass
+    node.prev.next = node.next
+    node.next.prev = node.prev
+    node.next = None
+    node.prev = self.tail
+    self.tail = node
 
   def delete(self, node):
-    pass
-    
+    node.prev.next = node.next
+    node.next.prev = node.prev
+
   def get_max(self):
-    pass
+    if self.head is None:
+      return 0
+    count = 1
+    currentNode = self.head
+
+    while currentNode.next is not None:
+      count += 1
+      currentNode = currentNode.next
+
+    return count
